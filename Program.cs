@@ -20,8 +20,14 @@ namespace klavyeden_girilen_2_sayıyı_bölen_uygulama
 
             bolum = bolunen / bolen;
 
-            Console.WriteLine("Çıkan Bölüm: {0}", bolum);
+            Console.WriteLine("Çıkan Bölüm: {0}", bolum); //vayyy 
             Console.ReadLine();
+
+            // bolen 0 olduğunda program hata veriyor
+
+            // mesela bolunen 1 bolen 4 olduğunda sonucu 0 veriyor ama sonuç 0.25
+
+            //bu iki hatayı düzeltmeni bekliyorum
 
         }
     }
